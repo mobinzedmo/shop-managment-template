@@ -1,0 +1,11 @@
+@media(max-width:1100px){.cards.c4{grid-template-columns:repeat(2,1fr)}.inv-layout{grid-template-columns:1fr}.panel.side{position:static}.grid-2{grid-template-columns:1fr}}
+@media(max-width:860px){
+  .sidebar{inset:auto 0 0 0;width:auto;flex-direction:row;padding:4px 6px calc(4px + env(safe-area-inset-bottom));border-left:0;border-top:1px solid var(--line);overflow-x:auto}
+  .sidebar .brand,.side-foot{display:none}.sidebar nav{flex-direction:row;justify-content:space-between;width:100%;gap:0}
+  .sidebar nav a{flex-direction:column;gap:1px;padding:6px 8px;font-size:10.5px;flex:1;min-width:52px;text-align:center;align-items:center;border-radius:10px}
+  .main{margin-right:0;padding-bottom:70px}.topbar{padding:8px 14px;gap:8px}.top-name{display:block}.topbar h1{display:none}.shopinfo{display:none}.gsearch{width:auto;flex:1;margin-left:auto}
+  .view{padding:16px 14px 40px}.cards.c3{grid-template-columns:1fr 1fr}.form.grid2,.form.grid3{grid-template-columns:1fr}.form .full2{grid-column:auto}
+  .inp.sm{width:100%}.toolbar{flex-wrap:wrap}.modal-wrap{padding:8px;align-items:flex-end}.modal{border-radius:18px 18px 12px 12px;max-height:94vh}
+  .page-head h2{font-size:19px}#toasts{bottom:84px}.detail{flex-direction:column}.hbar{grid-template-columns:90px 1fr 34px}
+}
+@media(max-width:520px){.cards.c3,.cards.c4{grid-template-columns:1fr}.stat b{font-size:17px}}
