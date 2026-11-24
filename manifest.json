@@ -1,0 +1,16 @@
+{
+  "name": "سیستم مدیریت فروشگاه",
+  "short_name": "فروشگاه",
+  "description": "مدیریت محصولات، انبار، مشتریان و فاکتور فروشگاه",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf6f3",
+  "theme_color": "#faf6f3",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
